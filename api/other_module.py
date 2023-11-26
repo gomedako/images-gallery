@@ -1,2 +1,3 @@
-def fn_from_other_module():
-    print(__name__)
+import sys
+
+print(sys.path)
